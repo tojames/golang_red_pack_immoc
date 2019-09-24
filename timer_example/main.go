@@ -35,7 +35,12 @@ type timersBucket struct {
 }*/
 
 func main() {
-	time.NewTicker(time.Duration(60))
+	for true {
+		select {
+		case hello := <-time.NewTicker(time.Duration(10 * time.Second)).C:
+			fmt.Println(hello)
+		}
+	}
 }
 
 func RunTimers(count int) {
