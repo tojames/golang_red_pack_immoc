@@ -5,10 +5,10 @@ import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
 	"github.com/opentracing/opentracing-go/log"
-	"imooc-product/backend/web/controllers"
-	"imooc-product/common"
-	"imooc-product/repositories"
-	"imooc-product/services"
+	"iris-rabbitmq/backend/web/controllers"
+	"iris-rabbitmq/common"
+	"iris-rabbitmq/repositories"
+	"iris-rabbitmq/services"
 )
 
 func main() {
