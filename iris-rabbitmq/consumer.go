@@ -1,11 +1,11 @@
 package main
 
 import (
-	"imooc-product/common"
+	"iris-rabbitmq/common"
 	"fmt"
-	"imooc-product/repositories"
-	"imooc-product/services"
-	"imooc-product/rabbitmq"
+	"iris-rabbitmq/repositories"
+	"iris-rabbitmq/services"
+	"iris-rabbitmq/rabbitmq"
 )
 
 func main()  {

@@ -3,9 +3,9 @@ package controllers
 import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
-	"imooc-product/common"
-	"imooc-product/datamodels"
-	"imooc-product/services"
+	"iris-rabbitmq/common"
+	"iris-rabbitmq/datamodels"
+	"iris-rabbitmq/services"
 	"strconv"
 )
 

@@ -4,13 +4,13 @@ import (
 
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
-	"imooc-product/common"
-	"imooc-product/fronted/middleware"
-	"imooc-product/fronted/web/controllers"
-	"imooc-product/repositories"
-	"imooc-product/services"
+	"iris-rabbitmq/common"
+	"iris-rabbitmq/fronted/middleware"
+	"iris-rabbitmq/fronted/web/controllers"
+	"iris-rabbitmq/repositories"
+	"iris-rabbitmq/services"
 
-	"imooc-product/rabbitmq"
+	"iris-rabbitmq/rabbitmq"
 )
 
 func main() {

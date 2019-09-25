@@ -4,14 +4,14 @@ import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
 	"github.com/kataras/iris/sessions"
-	"imooc-product/datamodels"
-	"imooc-product/services"
+	"iris-rabbitmq/datamodels"
+	"iris-rabbitmq/services"
 	"strconv"
 
 
 	"fmt"
-	"imooc-product/encrypt"
-	"imooc-product/tool"
+	"iris-rabbitmq/encrypt"
+	"iris-rabbitmq/tool"
 )
 
 type UserController struct {

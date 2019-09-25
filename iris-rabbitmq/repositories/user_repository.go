@@ -3,8 +3,8 @@ package repositories
 import (
 	"database/sql"
 	"github.com/kataras/iris/core/errors"
-	"imooc-product/common"
-	"imooc-product/datamodels"
+	"iris-rabbitmq/common"
+	"iris-rabbitmq/datamodels"
 	"strconv"
 )
 

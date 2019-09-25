@@ -2,8 +2,8 @@ package repositories
 
 import (
 	"database/sql"
-	"imooc-product/common"
-	"imooc-product/datamodels"
+	"iris-rabbitmq/common"
+	"iris-rabbitmq/datamodels"
 	"strconv"
 )
 

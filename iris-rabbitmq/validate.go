@@ -2,16 +2,16 @@ package main
 
 import (
 	"fmt"
-	"imooc-product/common"
-	"imooc-product/encrypt"
+	"iris-rabbitmq/common"
+	"iris-rabbitmq/encrypt"
 	"net/http"
 	"sync"
 	"strconv"
 	"io/ioutil"
 
-	"imooc-product/rabbitmq"
+	"iris-rabbitmq/rabbitmq"
 	"net/url"
-	"imooc-product/datamodels"
+	"iris-rabbitmq/datamodels"
 	"encoding/json"
 
 	"errors"

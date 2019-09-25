@@ -5,8 +5,8 @@ import (
 	"github.com/streadway/amqp"
 	"log"
 
-	"imooc-product/services"
-	"imooc-product/datamodels"
+	"iris-rabbitmq/services"
+	"iris-rabbitmq/datamodels"
 	"encoding/json"
 	"sync"
 )

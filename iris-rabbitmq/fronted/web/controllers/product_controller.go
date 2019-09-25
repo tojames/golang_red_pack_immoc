@@ -4,14 +4,14 @@ import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
 	"github.com/kataras/iris/sessions"
-	"imooc-product/datamodels"
-	"imooc-product/services"
+	"iris-rabbitmq/datamodels"
+	"iris-rabbitmq/services"
 	"os"
 	"path/filepath"
 	"strconv"
 	"text/template"
 	"encoding/json"
-	"imooc-product/rabbitmq"
+	"iris-rabbitmq/rabbitmq"
 )
 
 type ProductController struct {

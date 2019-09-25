@@ -3,7 +3,7 @@ package controllers
 import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
-	"imooc-product/services"
+	"iris-rabbitmq/services"
 )
 
 type OrderController struct {

@@ -1,8 +1,8 @@
 package services
 
 import (
-	"imooc-product/datamodels"
-	"imooc-product/repositories"
+	"iris-rabbitmq/datamodels"
+	"iris-rabbitmq/repositories"
 )
 
 type IProductService interface {
