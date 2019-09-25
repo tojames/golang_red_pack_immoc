@@ -86,7 +86,7 @@ func (conn *Conn) New(ctx context.Context) (permission Permission, err error) {
 		conn.lock.Unlock()
 		return popPermission, nil
 	}
-	if conn.openCount > conn.maxConn {
+	if conn.openCount > conn.maxConn { // 当前连接数大于上限，则加入等待队列
 		nextConnIndex := getNextConnIndex(conn)
 
 		req := make(chan Permission, 1)
@@ -153,7 +153,7 @@ func (conn *Conn) Release(ctx context.Context) (result bool, err error) {
 				nextConnIndex := getNextConnIndex(conn)
 				permission := Permission{
 					NextConnIndex: NextConnIndex{nextConnIndex},
-					Content: "PASSED", CreatedAt: time.Now(), MaxLifeTime: time.Second * 5}
+					Content:       "PASSED", CreatedAt: time.Now(), MaxLifeTime: time.Second * 5}
 				conn.freeConns[nextConnIndex] = permission
 			}
 		}
