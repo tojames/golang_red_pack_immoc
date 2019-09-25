@@ -4,13 +4,13 @@ import (
 
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
-	"iris-rabbitmq/common"
-	"iris-rabbitmq/fronted/middleware"
-	"iris-rabbitmq/fronted/web/controllers"
-	"iris-rabbitmq/repositories"
-	"iris-rabbitmq/services"
+	"golang/iris-rabbitmq/common"
+	"golang/iris-rabbitmq/fronted/middleware"
+	"golang/iris-rabbitmq/fronted/web/controllers"
+	"golang/iris-rabbitmq/repositories"
+	"golang/iris-rabbitmq/services"
 
-	"iris-rabbitmq/rabbitmq"
+	"golang/iris-rabbitmq/rabbitmq"
 )
 
 func main() {

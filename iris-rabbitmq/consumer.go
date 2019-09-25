@@ -1,11 +1,11 @@
 package main
 
 import (
-	"iris-rabbitmq/common"
+	"golang/iris-rabbitmq/common"
 	"fmt"
-	"iris-rabbitmq/repositories"
-	"iris-rabbitmq/services"
-	"iris-rabbitmq/rabbitmq"
+	"golang/iris-rabbitmq/repositories"
+	"golang/iris-rabbitmq/services"
+	"golang/iris-rabbitmq/rabbitmq"
 )
 
 func main()  {

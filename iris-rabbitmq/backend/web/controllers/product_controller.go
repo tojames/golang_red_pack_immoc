@@ -3,9 +3,9 @@ package controllers
 import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
-	"iris-rabbitmq/common"
-	"iris-rabbitmq/datamodels"
-	"iris-rabbitmq/services"
+	"golang/iris-rabbitmq/common"
+	"golang/iris-rabbitmq/datamodels"
+	"golang/iris-rabbitmq/services"
 	"strconv"
 )
 

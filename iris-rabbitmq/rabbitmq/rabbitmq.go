@@ -5,8 +5,8 @@ import (
 	"github.com/streadway/amqp"
 	"log"
 
-	"iris-rabbitmq/services"
-	"iris-rabbitmq/datamodels"
+	"golang/iris-rabbitmq/services"
+	"golang/iris-rabbitmq/datamodels"
 	"encoding/json"
 	"sync"
 )

@@ -3,8 +3,8 @@ package repositories
 import (
 	"database/sql"
 	"github.com/kataras/iris/core/errors"
-	"iris-rabbitmq/common"
-	"iris-rabbitmq/datamodels"
+	"golang/iris-rabbitmq/common"
+	"golang/iris-rabbitmq/datamodels"
 	"strconv"
 )
 

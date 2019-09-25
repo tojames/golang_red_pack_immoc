@@ -5,10 +5,10 @@ import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
 	"github.com/opentracing/opentracing-go/log"
-	"iris-rabbitmq/backend/web/controllers"
-	"iris-rabbitmq/common"
-	"iris-rabbitmq/repositories"
-	"iris-rabbitmq/services"
+	"golang/iris-rabbitmq/backend/web/controllers"
+	"golang/iris-rabbitmq/common"
+	"golang/iris-rabbitmq/repositories"
+	"golang/iris-rabbitmq/services"
 )
 
 func main() {

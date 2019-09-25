@@ -4,14 +4,14 @@ import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
 	"github.com/kataras/iris/sessions"
-	"iris-rabbitmq/datamodels"
-	"iris-rabbitmq/services"
+	"golang/iris-rabbitmq/datamodels"
+	"golang/iris-rabbitmq/services"
 	"os"
 	"path/filepath"
 	"strconv"
 	"text/template"
 	"encoding/json"
-	"iris-rabbitmq/rabbitmq"
+	"golang/iris-rabbitmq/rabbitmq"
 )
 
 type ProductController struct {

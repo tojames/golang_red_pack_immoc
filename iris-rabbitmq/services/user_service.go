@@ -3,8 +3,8 @@ package services
 import (
 	"errors"
 	"golang.org/x/crypto/bcrypt"
-	"iris-rabbitmq/datamodels"
-	"iris-rabbitmq/repositories"
+	"golang/iris-rabbitmq/datamodels"
+	"golang/iris-rabbitmq/repositories"
 )
 
 type IUserService interface {

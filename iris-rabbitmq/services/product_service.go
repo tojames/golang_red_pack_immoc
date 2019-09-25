@@ -1,8 +1,8 @@
 package services
 
 import (
-	"iris-rabbitmq/datamodels"
-	"iris-rabbitmq/repositories"
+	"golang/iris-rabbitmq/datamodels"
+	"golang/iris-rabbitmq/repositories"
 )
 
 type IProductService interface {

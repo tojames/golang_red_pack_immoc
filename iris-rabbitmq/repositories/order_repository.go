@@ -2,8 +2,8 @@ package repositories
 
 import (
 	"database/sql"
-	"iris-rabbitmq/common"
-	"iris-rabbitmq/datamodels"
+	"golang/iris-rabbitmq/common"
+	"golang/iris-rabbitmq/datamodels"
 	"strconv"
 )
 

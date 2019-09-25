@@ -2,16 +2,16 @@ package main
 
 import (
 	"fmt"
-	"iris-rabbitmq/common"
-	"iris-rabbitmq/encrypt"
+	"golang/iris-rabbitmq/common"
+	"golang/iris-rabbitmq/encrypt"
 	"net/http"
 	"sync"
 	"strconv"
 	"io/ioutil"
 
-	"iris-rabbitmq/rabbitmq"
+	"golang/iris-rabbitmq/rabbitmq"
 	"net/url"
-	"iris-rabbitmq/datamodels"
+	"golang/iris-rabbitmq/datamodels"
 	"encoding/json"
 
 	"errors"

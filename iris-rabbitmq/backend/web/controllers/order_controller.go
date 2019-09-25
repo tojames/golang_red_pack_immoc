@@ -3,7 +3,7 @@ package controllers
 import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
-	"iris-rabbitmq/services"
+	"golang/iris-rabbitmq/services"
 )
 
 type OrderController struct {
