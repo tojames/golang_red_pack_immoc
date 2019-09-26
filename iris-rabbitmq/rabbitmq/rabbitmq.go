@@ -6,14 +6,16 @@ import (
 	"log"
 
 	"golang/iris-rabbitmq/services"
+
 	"golang/iris-rabbitmq/datamodels"
+
 	"encoding/json"
 	"sync"
 )
 
 //连接信息
 //const MQURL = "amqp://imoocuser:imoocuser@172.31.96.59:5672/imooc"
-const MQURL = "amqp://imoocuser:imoocuser@127.0.0.1:5672/imooc"
+const MQURL = "amqp://guest:rmt2019!@148.70.245.24:5672/eshouz"
 
 //rabbitMQ结构体
 type RabbitMQ struct {
@@ -56,8 +58,7 @@ func NewRabbitMQSimple(queueName string) *RabbitMQ {
 	var err error
 	//获取connection
 	rabbitmq.conn, err = amqp.Dial(rabbitmq.Mqurl)
-	rabbitmq.failOnErr(err, "failed to connect rabb"+
-		"itmq!")
+	rabbitmq.failOnErr(err, "failed to connect rabbitmq!")
 	//获取channel
 	rabbitmq.channel, err = rabbitmq.conn.Channel()
 	rabbitmq.failOnErr(err, "failed to open a channel")
