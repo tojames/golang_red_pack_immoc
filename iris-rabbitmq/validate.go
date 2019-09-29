@@ -303,7 +303,6 @@ func main() {
 	rabbitMqValidate =rabbitmq.NewRabbitMQSimple("imoocProduct")
 	defer rabbitMqValidate.Destory()
 
-
 	//1、过滤器
 	filter := common.NewFilter()
 	//@TODO 优化注册拦截器

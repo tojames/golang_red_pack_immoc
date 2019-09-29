@@ -36,7 +36,7 @@ type WebHandle func(rw http.ResponseWriter, req *http.Request)
 func (f *Filter) Handle(webHandle WebHandle) func(rw http.ResponseWriter, r *http.Request) {
 	return func(rw http.ResponseWriter, r *http.Request) {
 		for path, handle := range f.filterMap {
-			if strings.Contains(r.RequestURI,path) {
+			if strings.Contains(r.RequestURI, path) {
 				//执行拦截业务逻辑
 				err := handle(rw, r)
 				if err != nil {
