@@ -287,13 +287,13 @@ func checkInfo(checkStr string, signStr string) bool {
 func main() {
 	//负载均衡器设置
 	//采用一致性哈希算法
-	hashConsistent =common.NewConsistent()
+	hashConsistent = common.NewConsistent()
 	//采用一致性hash算法，添加节点
 	for _,v :=range hostArray {
 		hashConsistent.Add(v)
 	}
 
-	localIp,err:=common.GetIntranceIp()
+	localIp,err := common.GetIntranceIp()
 	if err!=nil {
 		fmt.Println(err)
 	}
