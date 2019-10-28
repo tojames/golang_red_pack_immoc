@@ -4,7 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-
+	"git.imooc.com/wendell1000/account/core/accounts"
+	acservices "git.imooc.com/wendell1000/account/services"
 	"git.imooc.com/wendell1000/infra/algo"
 	"git.imooc.com/wendell1000/infra/base"
 	"git.imooc.com/wendell1000/resk/services"
@@ -60,67 +61,63 @@ func (d *goodsDomain) Receive(
 			log.Error(err)
 			return err
 		}
-
+		//7. 将抢到的红包金额从系统红包中间账户转入当前用户的资金账户
+		// transfer
+		status, err := d.transfer(txCtx, dto)
+		if status == acservices.TransferedStatusSuccess {
+			return nil
+		} else {
+			return err
+		}
 		return err
 	})
 	if err != nil {
 		return nil, err
 	}
-	//7. 将抢到的红包金额从系统红包中间账户转入当前用户的资金账户
-	// transfer
-	status, err := d.transfer(dto)
-	if err != nil {
-		return nil, err
-	}
-	if status != services.TransferedStatusSuccess {
-		return nil, errors.New("转账失败")
-	}
-
 	return d.item.ToDTO(), err
 }
 
 func (d *goodsDomain) transfer(
-	dto services.RedEnvelopeReceiveDTO) (status services.TransferedStatus, err error) {
+	ctx context.Context,
+	dto services.RedEnvelopeReceiveDTO) (status acservices.TransferedStatus, err error) {
 	systemAccount := base.GetSystemAccount()
-	body := services.TradeParticipator{
+	body := acservices.TradeParticipator{
 		AccountNo: systemAccount.AccountNo,
 		UserId:    systemAccount.UserId,
 		Username:  systemAccount.Username,
 	}
-	target := services.TradeParticipator{
+	target := acservices.TradeParticipator{
 		AccountNo: dto.AccountNo,
 		UserId:    dto.RecvUserId,
 		Username:  dto.RecvUsername,
 	}
 
-	acsvs := services.GetAccountService()
+	adomain := accounts.NewAccountDomain()
 	//从系统红包资金账户扣减
-	transfer := services.AccountTransferDTO{
+	transfer := acservices.AccountTransferDTO{
 		TradeBody:   body,
 		TradeTarget: target,
 		TradeNo:     dto.EnvelopeNo,
 		Amount:      d.item.Amount,
-		AmountStr:   d.item.Amount.String(),
-		ChangeType:  services.EnvelopeOutgoing,
-		ChangeFlag:  services.FlagTransferOut,
+		ChangeType:  acservices.EnvelopeOutgoing,
+		ChangeFlag:  acservices.FlagTransferOut,
 		Decs:        "红包扣减：" + dto.EnvelopeNo,
 	}
-	status, err = acsvs.Transfer(transfer)
-	if err != nil || status != services.TransferedStatusSuccess {
+	status, err = adomain.TransferWithContextTx(ctx, transfer)
+	if err != nil || status != acservices.TransferedStatusSuccess {
 		return status, err
 	}
 	//从系统红包资金账户转入当前用户
-	transfer = services.AccountTransferDTO{
+	transfer = acservices.AccountTransferDTO{
 		TradeBody:   target,
 		TradeTarget: body,
 		TradeNo:     dto.EnvelopeNo,
 		Amount:      d.item.Amount,
-		AmountStr:   d.item.Amount.String(),
-		ChangeType:  services.EnvelopeIncoming,
-		ChangeFlag:  services.FlagTransferIn,
+		ChangeType:  acservices.EnvelopeIncoming,
+		ChangeFlag:  acservices.FlagTransferIn,
 		Decs:        "红包收入：" + dto.EnvelopeNo,
 	}
-	return acsvs.Transfer(transfer)
+	return adomain.TransferWithContextTx(ctx, transfer)
 }
 
 //预创建收红包订单明细

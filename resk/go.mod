@@ -27,7 +27,7 @@ replace (
 )
 
 require (
-	git.imooc.com/wendell1000/infra v0.1.3
+	git.imooc.com/wendell1000/infra v0.1.4
 	github.com/go-playground/locales v0.12.1
 	github.com/go-playground/universal-translator v0.16.0
 	github.com/go-redsync/redsync v1.2.0

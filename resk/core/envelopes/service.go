@@ -3,9 +3,8 @@ package envelopes
 import (
 	"context"
 	"errors"
-
+	acservices "git.imooc.com/wendell1000/account/services"
 	"git.imooc.com/wendell1000/infra/base"
-	_ "git.imooc.com/wendell1000/resk/core/accounts"
 	"git.imooc.com/wendell1000/resk/services"
 	"github.com/shopspring/decimal"
 	log "github.com/sirupsen/logrus"
@@ -31,7 +30,7 @@ func (r *redEnvelopeService) SendOut(
 		return activity, err
 	}
 	//获取红包发送人的资金账户信息
-	account := services.GetAccountService().GetEnvelopeAccountByUserId(dto.UserId)
+	account := acservices.GetAccountService().GetEnvelopeAccountByUserId(dto.UserId)
 	if account == nil {
 		return nil, errors.New("用户账户不存在：" + dto.UserId)
 	}
@@ -62,7 +61,7 @@ func (r *redEnvelopeService) Receive(dto services.RedEnvelopeReceiveDTO) (item *
 		return nil, err
 	}
 	//获取当前收红包用户的账户信息
-	account := services.GetAccountService().GetEnvelopeAccountByUserId(dto.RecvUserId)
+	account := acservices.GetAccountService().GetEnvelopeAccountByUserId(dto.RecvUserId)
 	if account == nil {
 		return nil, errors.New("红包资金账户不存在：user_id=" + dto.RecvUserId)
 	}

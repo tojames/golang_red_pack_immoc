@@ -2,10 +2,10 @@ package main
 
 import (
 	"errors"
-	"git.imooc.com/wendell1000/infra/lb"
-	"git.imooc.com/wendell1000/resk/services"
 	"github.com/shopspring/decimal"
 	"github.com/sirupsen/logrus"
+	"git.imooc.com/wendell1000/infra/lb"
+	"git.imooc.com/wendell1000/resk/services"
 	"net/rpc"
 	"strings"
 )
