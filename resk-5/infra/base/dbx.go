@@ -1,12 +1,12 @@
 package base
 
 import (
+	"resk-5/infra"
+	"resk-5/infra/logrus"
 	_ "github.com/go-sql-driver/mysql"
 	log "github.com/sirupsen/logrus"
 	"github.com/tietang/dbx"
 	"github.com/tietang/props/kvs"
-	"imooc.com/resk/infra"
-	"imooc.com/resk/infra/logrus"
 )
 
 //dbx 数据库实例

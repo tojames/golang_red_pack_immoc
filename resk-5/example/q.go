@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	p := "/Users/tietang/my/gitcode/resk-projects/src/imooc.com/resk/infra/base/dbx.go"
+	p := "/Users/tietang/my/gitcode/resk-projects/src/resk-5/infra/base/dbx.go"
 	d, f := path.Split(p)
 	fmt.Println(d)
 	fmt.Println(f)

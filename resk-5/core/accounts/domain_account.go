@@ -6,8 +6,8 @@ import (
 	"github.com/shopspring/decimal"
 	"github.com/sirupsen/logrus"
 	"github.com/tietang/dbx"
-	"imooc.com/resk/infra/base"
-	"imooc.com/resk/services"
+	"resk-5/infra/base"
+	"resk-5/services"
 )
 
 //有状态的，每次使用时都要实例化

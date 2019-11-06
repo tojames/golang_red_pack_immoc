@@ -3,9 +3,9 @@ package main
 import (
 	"github.com/tietang/props/ini"
 	"github.com/tietang/props/kvs"
-	_ "imooc.com/resk"
-	"imooc.com/resk/infra"
-	"imooc.com/resk/infra/base"
+	_ "resk-5"
+	"resk-5/infra"
+	"resk-5/infra/base"
 )
 
 func main() {

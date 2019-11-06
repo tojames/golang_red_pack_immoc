@@ -6,8 +6,8 @@ import (
 	"github.com/sirupsen/logrus"
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/tietang/dbx"
-	"imooc.com/resk/infra/base"
-	"imooc.com/resk/services"
+	"resk-5/infra/base"
+	"resk-5/services"
 	"testing"
 )
 

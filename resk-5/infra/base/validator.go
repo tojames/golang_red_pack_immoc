@@ -1,12 +1,12 @@
 package base
 
 import (
+	"resk-5/infra"
 	"github.com/go-playground/locales/zh"
 	"github.com/go-playground/universal-translator"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/go-playground/validator.v9"
 	vtzh "gopkg.in/go-playground/validator.v9/translations/zh"
-	"imooc.com/resk/infra"
 )
 
 var validate *validator.Validate
@@ -45,16 +45,16 @@ func (v *ValidatorStarter) Init(ctx infra.StarterContext) {
 }
 
 func ValidateStruct(s interface{}) (err error) {
-	//验证
 	err = Validate().Struct(s)
 	if err != nil {
-		if _, ok := err.(*validator.InvalidValidationError); ok {
-			log.Error(err)
+		_, ok := err.(*validator.InvalidValidationError)
+		if ok {
+			log.Error("验证错误", err)
 		}
 		errs, ok := err.(validator.ValidationErrors)
 		if ok {
-			for _, err := range errs {
-				log.Error(err.Translate(translator))
+			for _, e := range errs {
+				log.Error(e.Translate(Transtate()))
 			}
 		}
 		return err

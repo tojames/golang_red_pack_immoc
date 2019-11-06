@@ -3,8 +3,8 @@ package testx
 import (
 	"github.com/tietang/props/ini"
 	"github.com/tietang/props/kvs"
-	"imooc.com/resk/infra"
-	"imooc.com/resk/infra/base"
+	"resk-5/infra"
+	"resk-5/infra/base"
 )
 
 func init() {

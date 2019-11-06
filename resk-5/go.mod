@@ -1,4 +1,4 @@
-module imooc.com/resk
+module resk-5
 
 go 1.12
 
@@ -36,7 +36,6 @@ require (
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/flosch/pongo2 v0.0.0-20181225140029-79872a7b2769 // indirect
 	github.com/gavv/monotime v0.0.0-20171021193802-6f8212e8d10d // indirect
-	github.com/go-ini/ini v1.42.0 // indirect
 	github.com/go-playground/locales v0.12.1
 	github.com/go-playground/universal-translator v0.16.0
 	github.com/go-sql-driver/mysql v1.4.1
@@ -64,7 +63,6 @@ require (
 	github.com/moul/http2curl v1.0.0 // indirect
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
-	github.com/prometheus/common v0.2.0
 	github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5
 	github.com/ryanuber/columnize v0.0.0-20160712163229-9b3edd62028f // indirect
 	github.com/segmentio/ksuid v1.0.2
@@ -75,9 +73,9 @@ require (
 	github.com/smartystreets/goconvey v0.0.0-20190306220146-200a235640ff
 	github.com/tebeka/strftime v0.0.0-20140926081919-3f9c7761e312 // indirect
 	github.com/tietang/dbx v0.0.0-20190314092248-c144fca0b077
+	github.com/tietang/go-eureka-client/eureka v0.0.0-20190327071554-ed5a2bb78851
 	github.com/tietang/go-utils v0.1.2
 	github.com/tietang/props v2.3.0+incompatible
-	github.com/valyala/fasttemplate v1.0.1 // indirect
 	github.com/x-cray/logrus-prefixed-formatter v0.5.2
 	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect

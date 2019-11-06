@@ -2,13 +2,13 @@ package base
 
 import (
 	"fmt"
-	rotatelogs "github.com/lestrrat/go-file-rotatelogs"
+	"github.com/lestrrat/go-file-rotatelogs"
 	"github.com/mattn/go-colorable"
 	"github.com/rifflock/lfshook"
 	log "github.com/sirupsen/logrus"
 	"github.com/tietang/go-utils"
 	"github.com/tietang/props/kvs"
-	prefixed "github.com/x-cray/logrus-prefixed-formatter"
+	"github.com/x-cray/logrus-prefixed-formatter"
 	"io"
 	"os"
 	"path"
@@ -129,5 +129,4 @@ func InitLog(conf kvs.ConfigSource) {
 	log.AddHook(lfHook)
 	//
 	log_writer = writer
-
 }

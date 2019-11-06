@@ -1,11 +1,11 @@
 package base
 
 import (
+	"resk-5/infra"
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/middleware/logger"
 	irisrecover "github.com/kataras/iris/middleware/recover"
 	log "github.com/sirupsen/logrus"
-	"imooc.com/resk/infra"
 	"time"
 )
 

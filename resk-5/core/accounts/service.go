@@ -6,8 +6,8 @@ import (
 	"github.com/shopspring/decimal"
 	"github.com/sirupsen/logrus"
 	"gopkg.in/go-playground/validator.v9"
-	"imooc.com/resk/infra/base"
-	"imooc.com/resk/services"
+	"resk-5/infra/base"
+	"resk-5/services"
 	"sync"
 )
 

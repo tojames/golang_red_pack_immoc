@@ -7,6 +7,9 @@ import (
 
 //二倍均值算法
 func DoubleAverage(count, amount int64) int64 {
+	if count <= 0 {
+		return 0
+	}
 	if count == 1 {
 		return amount
 	}

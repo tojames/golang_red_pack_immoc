@@ -36,42 +36,6 @@ func WithValueContext(parent context.Context, runner *dbx.TxRunner) context.Cont
 	return context.WithValue(parent, TX, runner)
 }
 
-//在事务上下文中执行事务逻辑
-//传入绑定了runner的上下文，并执行事务函数代码
-//函数只能用在绑定了runner的事务上下文中，也就是说用在事务函数内部，和WithValueContext配合一起来完成。
-// 举例：
-/*
-func CreateXyz() error {
-	err := Tx(func(runner *dbx.TxRunner) error {
-		//将runner绑定到上下文
-		ctx := WithValueContext(context.Background(), runner)
-		//dao.insert xxx
-		TxStepY(ctx)
-		TxStepZ(ctx)
-		return nil
-	})
-
-	return err
-}
-
-func TxStepY(ctx context.Context) error {
-	//事务上下文中执行Y数据库操作
-	return ExecuteContext(ctx, func(runner *dbx.TxRunner) error {
-		//dao.insert yyy
-		return nil
-	})
-
-}
-
-func TxStepZ(ctx context.Context) error {
-	//事务上下文中执行Z数据库操作
-	return ExecuteContext(ctx, func(runner *dbx.TxRunner) error {
-		//dao.update zzz
-		return nil
-	})
-
-}
-*/
 func ExecuteContext(ctx context.Context, fn func(*dbx.TxRunner) error) error {
 	tx, ok := ctx.Value(TX).(*dbx.TxRunner)
 	if !ok || tx == nil {

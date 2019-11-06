@@ -4,7 +4,7 @@ import (
 	"github.com/segmentio/ksuid"
 	"github.com/shopspring/decimal"
 	. "github.com/smartystreets/goconvey/convey"
-	"imooc.com/resk/services"
+	"resk-5/services"
 	"testing"
 )
 

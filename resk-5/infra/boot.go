@@ -48,7 +48,6 @@ func (e *BootApplication) setup() {
 		log.Debug("Setup: ", typ.String())
 		v.Setup(e.starterCtx)
 	}
-
 }
 
 //程序开始运行，开始接受调用
@@ -59,6 +58,11 @@ func (e *BootApplication) start() {
 
 		typ := reflect.TypeOf(v)
 		log.Debug("Starting: ", typ.String())
+		if e.starterCtx.Props().GetBoolDefault("testing", false) {
+			go v.Start(e.starterCtx)
+			continue
+		}
+
 		if v.StartBlocking() {
 			if i+1 == len(GetStarters()) {
 				v.Start(e.starterCtx)
