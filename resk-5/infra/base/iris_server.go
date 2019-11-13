@@ -32,6 +32,7 @@ func (i *IrisServerStarter) Init(ctx infra.StarterContext) {
 func (i *IrisServerStarter) Setup(ctx infra.StarterContext) {
 
 }
+
 func (i *IrisServerStarter) Start(ctx infra.StarterContext) {
 	//和logrus日志级别保持一致
 	Iris().Logger().SetLevel(ctx.Props().GetDefault("log.level", "info"))

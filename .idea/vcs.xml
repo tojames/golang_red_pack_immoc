@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/infra/infra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/resk-10/infra/infra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/resk-5/infra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/zinx/examples/zinx_release/zinx" vcs="Git" />
+  </component>
+</project>

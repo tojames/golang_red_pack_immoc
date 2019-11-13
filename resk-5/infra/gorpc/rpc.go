@@ -11,8 +11,7 @@ type GoRpcClient struct {
 	Apps *lb.Apps
 }
 
-func (g *GoRpcClient) Call(serviceId, serviceMethod string,
-	in interface{}, out interface{}) error {
+func (g *GoRpcClient) Call(serviceId, serviceMethod string, in interface{}, out interface{}) error {
 	//通过微服务名称从本地服务注册表中查询应用和应用实例列表
 	app := g.Apps.Get(serviceId)
 	if app == nil {

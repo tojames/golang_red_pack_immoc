@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="689f9f0b-65cc-49f1-84e3-e3961071c593" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ALG/heapsort/heapsort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALG/mergesort/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/algo/after-shuffle.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/algo/after-shuffle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/algo/algo_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/algo/algo_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/algo/before-shuffle.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/algo/before-shuffle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/algo/double-average.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/algo/double-average.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/algo/double-random.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/algo/double-random.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/algo/simple-random.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/algo/simple-random.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/base/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/base/base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/base/dbx.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/base/dbx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/base/dbx_base.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/base/dbx_base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/base/eureka.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/base/eureka.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/base/hook.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/base/hook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/base/iris_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/base/iris_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/base/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/base/log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/base/props.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/base/props.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/base/res.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/base/res.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/base/rpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/base/rpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/base/validator.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/base/validator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/boot.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/boot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/gorpc/ec_test.ini" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/gorpc/ec_test.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/gorpc/rpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/gorpc/rpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/httpclient/ec_test.ini" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/httpclient/ec_test.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/httpclient/http_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/httpclient/http_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/httpclient/http_client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/httpclient/http_client_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/initailizer.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/initailizer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/lb/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/lb/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/lb/lb.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/lb/lb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/lb/lb_hash.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/lb/lb_hash.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/lb/lb_rr.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/lb/lb_rr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/logrus/dbx_logrus.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/logrus/dbx_logrus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/starer.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/starer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/web.go" beforeDir="false" afterPath="$PROJECT_DIR$/infra/infra/web.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/algo/after-shuffle.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/algo/after-shuffle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/algo/algo_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/algo/algo_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/algo/before-shuffle.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/algo/before-shuffle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/algo/double-average.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/algo/double-average.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/algo/double-random.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/algo/double-random.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/algo/simple-random.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/algo/simple-random.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/base/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/base/base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/base/dbx.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/base/dbx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/base/dbx_base.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/base/dbx_base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/base/eureka.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/base/eureka.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/base/hook.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/base/hook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/base/iris_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/base/iris_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/base/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/base/log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/base/props.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/base/props.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/base/res.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/base/res.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/base/rpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/base/rpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/base/validator.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/base/validator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/boot.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/boot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/gorpc/ec_test.ini" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/gorpc/ec_test.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/gorpc/rpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/gorpc/rpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/httpclient/ec_test.ini" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/httpclient/ec_test.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/httpclient/http_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/httpclient/http_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/httpclient/http_client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/httpclient/http_client_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/initailizer.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/initailizer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/lb/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/lb/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/lb/lb.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/lb/lb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/lb/lb_hash.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/lb/lb_hash.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/lb/lb_rr.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/lb/lb_rr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/logrus/dbx_logrus.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/logrus/dbx_logrus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/starer.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/starer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-10/infra/infra/web.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-10/infra/infra/web.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/algo/after-shuffle.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/algo/after-shuffle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/algo/algo_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/algo/algo_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/algo/before-shuffle.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/algo/before-shuffle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/algo/double-average.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/algo/double-average.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/algo/double-random.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/algo/double-random.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/algo/simple-random.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/algo/simple-random.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/base/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/base/base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/base/dbx.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/base/dbx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/base/dbx_base.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/base/dbx_base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/base/eureka.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/base/eureka.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/base/hook.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/base/hook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/base/iris_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/base/iris_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/base/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/base/log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/base/props.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/base/props.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/base/res.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/base/res.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/base/rpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/base/rpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/base/validator.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/base/validator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/boot.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/boot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/gorpc/ec_test.ini" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/gorpc/ec_test.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/gorpc/rpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/gorpc/rpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/httpclient/ec_test.ini" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/httpclient/ec_test.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/httpclient/http_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/httpclient/http_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/httpclient/http_client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/httpclient/http_client_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/initailizer.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/initailizer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/lb/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/lb/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/lb/lb.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/lb/lb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/lb/lb_hash.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/lb/lb_hash.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/lb/lb_rr.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/lb/lb_rr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/logrus/dbx_logrus.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/logrus/dbx_logrus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/starer.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/starer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resk-5/infra/web.go" beforeDir="false" afterPath="$PROJECT_DIR$/resk-5/infra/web.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ALG/heapsort/heapsort.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ALG/mergesort/main.go" />
+        <option value="$PROJECT_DIR$/ALG/heapsort/headsort.go" />
+        <option value="$PROJECT_DIR$/ALG/heapsort/heapsort.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golang" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973147" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Json Parser" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sort_example/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALG/mergesort/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALG/heapsort/heapsort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
